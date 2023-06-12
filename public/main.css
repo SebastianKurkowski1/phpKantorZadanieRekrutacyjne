@@ -1,0 +1,30 @@
+#tablesContainer {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 50px; 
+}
+#tablesContainer span {
+    font-size: 22px;
+}
+#currencies {
+    border-spacing: 0;
+}
+#currencies td{
+    border: 1px solid black;
+    background-color: rgba(230, 229, 229, 0.815);
+}
+#currencies th{
+    border: 1px solid black;
+    background-color: greenyellow;
+    padding: 5px;
+}
+
+#exchangeForm {
+    margin-top: 30px;
+}
+
+#exchangeForm div {
+    margin: 10px;
+}
